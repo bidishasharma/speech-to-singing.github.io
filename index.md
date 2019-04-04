@@ -1,10 +1,12 @@
 ## Welcome to GitHub Pages
 
+
 You can use the [editor on GitHub](https://github.com/bidishasharma/speech-to-singing.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
+Speech and singing are different in many ways. In this work, we propose a novel method to align phonetically identical spoken lyric with a singing vocal in a speech-singing parallel corpus, that is needed in  speech-to-singing conversion. We attempt to align speech to singing vocal using a combination of model-based forced alignment and feature-based dynamic time warping (DTW). We first obtain the word boundaries of speech and singing vocals with forced alignment using speech and singing adapted acoustic models, respectively. We consider that speech acoustic models are more accurate than singing acoustic models, therefore, boundaries of spoken words are more accurate than sung words. By searching in the neighborhood of the sung word boundaries in the singing vocal, we hope to improve the alignment between spoken words and sung words. Considering the word boundaries as landmark, we perform speech-to-singing alignment at frame-level using DTW.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
